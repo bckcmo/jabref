@@ -4,7 +4,7 @@
 [![codecov.io](https://codecov.io/github/JabRef/jabref/coverage.svg?branch=master)](https://codecov.io/github/JabRef/jabref?branch=master)
 [![Donation](https://img.shields.io/badge/donate%20to-jabref-orange.svg)](https://donations.jabref.org)
 
-JabRef is an open-source, cross-platform citation and reference management tool licensed under the  [MIT license](https://tldrlegal.com/license/mit-license).
+JabRef is an open-source, cross-platform citation and reference management tool licensed under the [MIT license](https://tldrlegal.com/license/mit-license).
 
 Stay on top of your literature: JabRef helps you to collect and organize sources, find the paper you need and discover the latest research.
 ![main table](https://www.jabref.org/img/JabRef-4-0-MainTable.png)
@@ -22,7 +22,7 @@ JabRef supports you in every step of your research work.
 - Fetch complete bibliographic information based on ISBN, DOI, PubMed-ID and arXiv-ID
 - Extract metadata from PDFs
 - [JabFox Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/jabfox/) lets you import new references directly from the browser with one click
-	
+
 #### Organize
 
 - Group your research into hierarchical collections and organize research items based on keywords/tags, search terms or your own manual assignments
@@ -33,15 +33,15 @@ JabRef supports you in every step of your research work.
 - Find and merge duplicates
 - Attach related documents: 20 different kinds of documents supported out of the box, completely customizable and extendable
 - Automatically rename and move associated documents according to customizable rules
-- Keep track of what you read: ranking, priority, printed, quality-assured 
-	
+- Keep track of what you read: ranking, priority, printed, quality-assured
+
 #### Cite
 
 - Native [BibTeX] and [Biblatex] support
 - Cite-as-you-write functionality for external applications such as Emacs, Kile, LyX, Texmaker, TeXstudio, Vim and WinEdt.
 - Format references in one of the many thousand built-in citation styles or create your own style
 - Support for Word and LibreOffice/OpenOffice for inserting and formatting citations
-	
+
 #### Share
 
 - Many built-in export options or create your own export format
@@ -55,13 +55,14 @@ The [latest stable release is available at FossHub](https://www.fosshub.com/JabR
 
 JabRef runs on any system equipped with the Java Virtual Machine (1.8), which can be downloaded at no cost from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Note that Java 9 is currently not supported.
 From JabRef 4.0 onwards, [JavaFX] support has to be installed.
- - Windows: JabRef offers an installer, which also adds a shortcut to JabRef to your start menu. Please also see our [Windows FAQ](https://help.jabref.org/en/FAQwindows)
- - Linux: Please see our [Installation Guide](http://help.jabref.org/en/Installation).
- - Mac OS X: Please see our [Mac OS X FAQ](https://help.jabref.org/en/FAQosx).
 
-In addition, JabRef can be downloaded as an executable `.jar` file. 
+- Windows: JabRef offers an installer, which also adds a shortcut to JabRef to your start menu. Please also see our [Windows FAQ](https://help.jabref.org/en/FAQwindows)
+- Linux: Please see our [Installation Guide](http://help.jabref.org/en/Installation).
+- Mac OS X: Please see our [Mac OS X FAQ](https://help.jabref.org/en/FAQosx).
+
+In addition, JabRef can be downloaded as an executable `.jar` file.
 Try to double click the `jar` file or execute the following command:
-     `java -jar <path to jar>`
+`java -jar <path to jar>`
 
 ## Bug Reports, Suggestions, Other Feedback
 
@@ -83,10 +84,11 @@ An explanation of donation possibilities and usage of donations is available at 
 > Not a programmer? [Learn how to help.](http://contribute.jabref.org)
 
 Want to be part of a free and open-source project that tens of thousands scientist use every day?
-Check out our [issue tracker](https://github.com/JabRef/jabref/issues) to find something to work on.
+First, have a look at our [guidelines for contributing](CONTRIBUTING.md).
+Next, check out our [issue tracker](https://github.com/JabRef/jabref/issues) to find something to work on.
 You are also welcome to contribute new features.
+
 To get your code included into JabRef, just fork JabRef and create a pull request.
-For details have a look at our [guidelines for contributing](CONTRIBUTING.md).
 We view pull requests as a collaborative process.
 Submit a pull request early to get feedback from the team on work in progress.
 We will discuss improvements with you and agree to merge them once the [developers](https://github.com/JabRef/jabref/blob/master/DEVELOPERS) approve.
@@ -103,7 +105,6 @@ For IntelliJ IDEA, just import the project via a Gradle Import by pointing at th
 
 `gradlew test` executes all tests. We use [Travis CI](https://travis-ci.org/) for executing the tests after each commit. For developing, it is sufficient to locally only run the associated test for the classes you changed. Travis will report any other failure.
 
-
 ## Acknowledgements
 
 We use [install4j], the multi-platform installer builder. We've got an [open-source license](https://www.ej-technologies.com/buy/install4j/openSource).
@@ -116,8 +117,8 @@ See the [LICENSE.md](LICENSE.md) for the full MIT license.
 JabRef also uses libraries, fonts, and icons distributed by other parties.
 See [external libraries](external-libraries.txt) for details.
 
-  [BibTeX]: https://www.ctan.org/pkg/bibtex
-  [Biblatex]: https://www.ctan.org/pkg/biblatex
-  [install4j]: https://www.ej-technologies.com/products/install4j/overview.html
-  [JabRef]: https://www.jabref.org
-  [JavaFX]: https://en.wikipedia.org/wiki/JavaFX
+[bibtex]: https://www.ctan.org/pkg/bibtex
+[biblatex]: https://www.ctan.org/pkg/biblatex
+[install4j]: https://www.ej-technologies.com/products/install4j/overview.html
+[jabref]: https://www.jabref.org
+[javafx]: https://en.wikipedia.org/wiki/JavaFX
